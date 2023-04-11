@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @player_performance %>
+
+<div>
+  <%= link_to "Edit this player performance", edit_player_performance_path(@player_performance) %> |
+  <%= link_to "Back to player performances", player_performances_path %>
+
+  <%= button_to "Destroy this player performance", @player_performance, method: :delete %>
+</div>
